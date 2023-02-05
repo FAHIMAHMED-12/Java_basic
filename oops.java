@@ -9,16 +9,16 @@ class Pen{
     }
 
 }
-class Student{
-    int id;
-    String name;
-    int age;
-    public void printInfo(){
-        System.out.println(this.name);
-        System.out.println(this.id);
-        System.out.println(this.age);
-    }
-}
+// class Student{
+//     int id;
+//     String name;
+//     int age;
+//     public void printInfo(){
+//         System.out.println(this.name);
+//         System.out.println(this.id);
+//         System.out.println(this.age);
+//     }
+// }
 
 
 
@@ -33,13 +33,13 @@ public class oops {
         Pen pen2= new Pen();
         pen2.color="Red";
         pen2.type="ball";
-        //pen1.pencolor();
-        //pen2.pencolor();
-        Student student1 = new Student();
-        student1.age= 15;
-        student1.id=1015;
-        student1.name= "Akash";
-        student1.printInfo();
+        pen1.pencolor();
+        pen2.pencolor();
+        // Student student1 = new Student();
+        // student1.age= 15;
+        // student1.id=1015;
+        // student1.name= "Akash";
+        // student1.printInfo();
 
     }
 
