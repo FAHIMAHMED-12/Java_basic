@@ -15,4 +15,4 @@ public class pyramid {
           System.out.println();
         }
       }
-}
+}q
