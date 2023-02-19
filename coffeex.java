@@ -1,7 +1,7 @@
 
 class Coffee{
     public boolean empty(){
-        return false;
+        return true;
     }
     public void refill(){
         System.out.println("Coffee is refilled");
